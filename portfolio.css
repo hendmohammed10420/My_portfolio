@@ -636,3 +636,52 @@ padding: .2rem;
         align-items: center;
     }
 }
+
+
+/* Styles for the personal info card */
+.personal-info-card {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.card {
+    background-color: #f3f3f3;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.card-header h2{
+    background-color: #2b648b;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-header h2 {
+    margin: 0;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.info-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.info-item i {
+    font-size: 1.2rem;
+    color: #2b648b;
+    margin-right: 10px;
+}
+
+.info-item p {
+    margin: 0;
+    font-size: 14px;
+}
