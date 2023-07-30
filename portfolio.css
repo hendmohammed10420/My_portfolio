@@ -123,10 +123,6 @@ section p a{
     100% { transform: scale(1); }
 }
 
-/* Apply animation to circles */
-.circle {
-    animation: circleAnimation 3s infinite;
-}
 
 
 
@@ -497,11 +493,13 @@ padding: .2rem;
 /* General styles for the education section */
 #education {
     text-align: center;
-    margin-top: 40px;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
 }
 #projects {
     text-align: center;
-    margin-top: 40px;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
 }
 
 
@@ -685,3 +683,41 @@ padding: .2rem;
     margin: 0;
     font-size: 14px;
 }
+
+/* Adjust the position of the profile image and "Hello" section */
+.hero {
+    position: relative;
+    margin-bottom: 5rem;
+
+}
+
+.hero img {
+    border-radius: 50%;
+    width:45%;
+    margin: 7rem auto ;
+    display: block;
+    position: relative;
+    /* z-index: 1; */
+}
+
+.hello h3 {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #fff;
+}
+.circle {
+    width: 145%;
+    height: 190%;
+    border-radius: 50%;
+    background: linear-gradient(45deg, #1f5070, #5690b4, #aecfe7);
+    position: absolute;
+    top: 19%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+  }
+
